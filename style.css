@@ -61,17 +61,6 @@ div{
 }
 
 
-@media (max-width: 760px) {
-		.container{
-			width: 600px;
-	}
-
-@media (max-width: 500px) {
-	;.container{
-		width: 400px;
-	}
-}
-
 .card-white{
 	background-color: white;
 	padding: 40px;
@@ -82,14 +71,19 @@ div{
 }
 
 
+
 .btn-blue{
 	background-color: #4CC9FE;
 	color: white;
 	padding: 15px 20px;
 	border-radius: 4px;
+	font-weight: bold;
+	font-size: 15px;
 }
+
+
 .btn-blue:hover{
-	background-color: black;
+	background-color: #789DBC;
 	color: white;
 }
 
@@ -113,6 +107,20 @@ div{
 .list-inline i:hover{
 	color: #9B7EBD;
 }
+
+
+@media (max-width: 760px) {
+		.container{
+			width: 600px;
+	}
+
+@media (max-width: 500px) {
+	;.container{
+		width: 400px;
+	}
+}
+
+
 #introduction p {
 	margin-bottom: 40px;
 }
